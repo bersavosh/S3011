@@ -5,6 +5,7 @@ notebooks/*
 #Week 6
 !data/movement-speeds-hourly-san-francisco-2020-1_first4k.csv
 !notebooks/first_notebook.ipynb
+!notebooks/first_notebook_complete.ipynb
 
 
 #########
