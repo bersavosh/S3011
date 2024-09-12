@@ -7,6 +7,21 @@ notebooks/*
 !notebooks/first_notebook.ipynb
 !notebooks/first_notebook_complete.ipynb
 
+#Week 7
+!data/loan_data_subset.csv
+!notebooks/transforms_in_polar_coordinates.ipynb
+!notebooks/pca_histogram_on_scatterplot.ipynb
+!notebooks/scales_comparison.ipynb
+!notebooks/projection_polar_axis.ipynb
+!notebooks/projection_polar_plots1.ipynb
+!notebooks/projection_polar_plots2.ipynb
+!notebooks/projection_cartographic.ipynb
+!notebooks/projection_3D.ipynb
+!notebooks/pandas_overview1.ipynb
+!notebooks/pandas_overview2.ipynb
+!notebooks/histogram_binning.ipynb
+!notebooks/plotting_histogram_workbook.ipynb
+
 
 #########
 # Byte-compiled / optimized / DLL files
