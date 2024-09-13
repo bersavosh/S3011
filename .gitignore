@@ -21,6 +21,7 @@ notebooks/*
 !notebooks/pandas_overview2.ipynb
 !notebooks/histogram_binning.ipynb
 !notebooks/plotting_histogram_workbook.ipynb
+!notebooks/plotting_histogram_complete.ipynb
 
 
 #########
