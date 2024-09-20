@@ -30,7 +30,7 @@ notebooks/*
 !notebooks/KDE_kernels.ipynb
 !notebooks/KDE_bandwidths.ipynb
 !notebooks/plotting_KDE_ridgeline_workbook.ipynb
-#!notebooks/plotting_KDE_ridgeline_complete.ipynb
+!notebooks/plotting_KDE_ridgeline_complete.ipynb
 
 #########
 # Byte-compiled / optimized / DLL files
