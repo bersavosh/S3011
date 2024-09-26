@@ -32,6 +32,14 @@ notebooks/*
 !notebooks/plotting_KDE_ridgeline_workbook.ipynb
 !notebooks/plotting_KDE_ridgeline_complete.ipynb
 
+#Week 9
+!notebooks/seaborn_context.ipynb
+!notebooks/seaborn_fonts.ipynb
+!notebooks/seaborn_palettes.ipynb
+!notebooks/seaborn_workbook.ipynb
+!notebooks/seaborn_styles.ipynb
+!notebooks/holoviews_example.ipynb
+
 #########
 # Byte-compiled / optimized / DLL files
 __pycache__/
