@@ -37,6 +37,7 @@ notebooks/*
 !notebooks/seaborn_fonts.ipynb
 !notebooks/seaborn_palettes.ipynb
 !notebooks/seaborn_workbook.ipynb
+!notebooks/seaborn_workbook_complete.ipynb
 !notebooks/seaborn_styles.ipynb
 !notebooks/holoviews_example.ipynb
 
