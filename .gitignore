@@ -41,6 +41,10 @@ notebooks/*
 !notebooks/seaborn_styles.ipynb
 !notebooks/holoviews_example.ipynb
 
+##Week 10
+!notebooks/altair_example.ipynb
+!notebooks/large_data_visualization.ipynb
+
 #########
 # Byte-compiled / optimized / DLL files
 __pycache__/
