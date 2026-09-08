@@ -1,7 +1,9 @@
 # repo-specific
 data/*
 notebooks/*
-streamlit/*complete*
+#streamlit/*complete*
+streamlit
+practice_test
 
 #Week 6
 !data/movement-speeds-hourly-san-francisco-2020-1_first4k.csv
