@@ -1,6 +1,63 @@
+# repo-specific
+data/*
+notebooks/*
+streamlit/*complete*
+
+#Week 6
+!data/movement-speeds-hourly-san-francisco-2020-1_first4k.csv
+!notebooks/first_notebook.ipynb
+!data/ABS*
+notebooks/first_notebook_complete.ipynb
+
+#Week 7
+data/loan_data_subset.csv
+notebooks/transforms_in_polar_coordinates.ipynb
+notebooks/pca_histogram_on_scatterplot.ipynb
+notebooks/scales_comparison.ipynb
+notebooks/projection_polar_axis.ipynb
+notebooks/projection_polar_plots1.ipynb
+notebooks/projection_polar_plots2.ipynb
+notebooks/projection_cartographic.ipynb
+notebooks/projection_3D.ipynb
+notebooks/pandas_overview1.ipynb
+notebooks/pandas_overview2.ipynb
+notebooks/histogram_binning.ipynb
+notebooks/plotting_histogram_workbook.ipynb
+notebooks/plotting_histogram_complete.ipynb
+
+#Week 8
+data/perception_of_probability.csv
+notebooks/aesthetics_linestyles.ipynb
+notebooks/aesthetics_markers.ipynb
+notebooks/KDE_kernels.ipynb
+notebooks/KDE_bandwidths.ipynb
+notebooks/plotting_KDE_ridgeline_workbook.ipynb
+notebooks/plotting_KDE_ridgeline_complete.ipynb
+
+#Week 9
+notebooks/seaborn_context.ipynb
+notebooks/seaborn_fonts.ipynb
+notebooks/seaborn_palettes.ipynb
+notebooks/seaborn_workbook.ipynb
+notebooks/seaborn_workbook_complete.ipynb
+notebooks/seaborn_styles.ipynb
+notebooks/holoviews_example.ipynb
+
+##Week 10
+notebooks/altair_example.ipynb
+notebooks/large_data_visualization.ipynb
+data/weather_data.csv
+data/wind_data_basel_Switzerland.csv
+data/simple_melt.png
+data/melt_with_var.png
+data/loan_data_metadata
+data/chicken_data.csv
+data/taxi_data_subset.csv
+
+#########
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[codz]
+*.py[cod]
 *$py.class
 
 # C extensions
@@ -27,8 +84,8 @@ share/python-wheels/
 MANIFEST
 
 # PyInstaller
-#   Usually these files are written by a python script from a template
-#   before PyInstaller builds the exe, so as to inject date/other infos into it.
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
@@ -46,7 +103,7 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
-*.py.cover
+*.py,cover
 .hypothesis/
 .pytest_cache/
 cover/
@@ -92,37 +149,24 @@ ipython_config.py
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
 #   having no cross-platform support, pipenv may install dependencies that don't work, or not
 #   install all needed dependencies.
-# Pipfile.lock
-
-# UV
-#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-# uv.lock
+#Pipfile.lock
 
 # poetry
 #   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
 #   commonly ignored for libraries.
 #   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
-# poetry.lock
-# poetry.toml
+#poetry.lock
 
 # pdm
 #   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
-#   pdm recommends including project-wide configuration in pdm.toml, but excluding .pdm-python.
-#   https://pdm-project.org/en/latest/usage/project/#working-with-version-control
-# pdm.lock
-# pdm.toml
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/latest/usage/project/#working-with-version-control
+.pdm.toml
 .pdm-python
 .pdm-build/
-
-# pixi
-#   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
-# pixi.lock
-#   Pixi creates a virtual environment in the .pixi directory, just like venv module creates one
-#   in the .venv directory. It is recommended not to include this directory in version control.
-.pixi
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
@@ -131,25 +175,11 @@ __pypackages__/
 celerybeat-schedule
 celerybeat.pid
 
-# Redis
-*.rdb
-*.aof
-*.pid
-
-# RabbitMQ
-mnesia/
-rabbitmq/
-rabbitmq-data/
-
-# ActiveMQ
-activemq-data/
-
 # SageMath parsed files
 *.sage.py
 
 # Environments
 .env
-.envrc
 .venv
 env/
 venv/
@@ -182,37 +212,8 @@ dmypy.json
 cython_debug/
 
 # PyCharm
-#   JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#   be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#   and can be added to the global gitignore or merged into this file.  For a more nuclear
-#   option (not recommended) you can uncomment the following to ignore the entire idea folder.
-# .idea/
-
-# Abstra
-#   Abstra is an AI-powered process automation framework.
-#   Ignore directories containing user credentials, local state, and settings.
-#   Learn more at https://abstra.io/docs
-.abstra/
-
-# Visual Studio Code
-#   Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
-#   that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
-#   and can be added to the global gitignore or merged into this file. However, if you prefer, 
-#   you could uncomment the following to ignore the entire vscode folder
-# .vscode/
-# Temporary file for partial code execution
-tempCodeRunnerFile.py
-
-# Ruff stuff:
-.ruff_cache/
-
-# PyPI configuration file
-.pypirc
-
-# Marimo
-marimo/_static/
-marimo/_lsp/
-__marimo__/
-
-# Streamlit
-.streamlit/secrets.toml
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
