@@ -25,15 +25,15 @@ practice_test
 !notebooks/pandas_overview2.ipynb
 !notebooks/histogram_binning.ipynb
 !notebooks/plotting_histogram_workbook.ipynb
-notebooks/plotting_histogram_complete.ipynb
+!notebooks/plotting_histogram_complete.ipynb
 
 #Week 8
-data/perception_of_probability.csv
-notebooks/aesthetics_linestyles.ipynb
-notebooks/aesthetics_markers.ipynb
-notebooks/KDE_kernels.ipynb
-notebooks/KDE_bandwidths.ipynb
-notebooks/plotting_KDE_ridgeline_workbook.ipynb
+!data/perception_of_probability.csv
+!notebooks/aesthetics_linestyles.ipynb
+!notebooks/aesthetics_markers.ipynb
+!notebooks/KDE_kernels.ipynb
+!notebooks/KDE_bandwidths.ipynb
+!notebooks/plotting_KDE_ridgeline_workbook.ipynb
 notebooks/plotting_KDE_ridgeline_complete.ipynb
 
 #Week 9
