@@ -2,7 +2,7 @@
 data/*
 notebooks/*
 #streamlit/*complete*
-streamlit
+!streamlit
 !practice_test
 
 #Week 6
@@ -46,15 +46,16 @@ streamlit
 !notebooks/holoviews_example.ipynb
 
 ##Week 10
-notebooks/altair_example.ipynb
-notebooks/large_data_visualization.ipynb
-data/weather_data.csv
-data/wind_data_basel_Switzerland.csv
-data/simple_melt.png
-data/melt_with_var.png
-data/loan_data_metadata
-data/chicken_data.csv
-data/taxi_data_subset.csv
+!notebooks/altair_example.ipynb
+!notebooks/large_data_visualization.ipynb
+!data/weather_data.csv
+!data/wind_data_basel_Switzerland.csv
+!data/simple_melt.png
+!data/melt_with_var.png
+!data/loan_data_metadata
+!data/chicken_data.csv
+!data/taxi_data_subset.csv
+streamlit/streamlit_example.py
 
 #########
 # Byte-compiled / optimized / DLL files
