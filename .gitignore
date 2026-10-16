@@ -2,7 +2,7 @@
 data/*
 notebooks/*
 #streamlit/*complete*
-!streamlit
+#!streamlit
 !practice_test
 
 #Week 6
@@ -55,7 +55,6 @@ notebooks/*
 !data/loan_data_metadata
 !data/chicken_data.csv
 !data/taxi_data_subset.csv
-streamlit/streamlit_example.py
 
 #########
 # Byte-compiled / optimized / DLL files
